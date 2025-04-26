@@ -5,7 +5,3 @@ site: bookdown::bookdown_site
 documentclass: book
 classoption: openany
 ---
-
-# Create your open textbook
-
-Hello, world!!!
