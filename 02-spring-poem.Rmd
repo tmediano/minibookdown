@@ -1,12 +1,12 @@
 # Spring Poem 
 A timely poem on Spring by Komitas  
-> Sweet spring,
-Flower and bud,
-The merry stream,
-Sparkling babble,
-Green bloom,
-Delightful dew,
-Refreshing brook
-Where did you leave all these...  
+> Sweet spring,  
+> Flower and bud,  
+> The merry stream,  
+> Sparkling babble,  
+> Green bloom,  
+> Delightful dew,  
+> Refreshing brook  
+> Where did you leave all these... 
   
 When your heart's in bloom, pollen gets in your eyes.
