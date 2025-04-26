@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-]{article}
+  openany]{book}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
 \ifPDFTeX
@@ -36,7 +36,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\usepackage[margin=1in]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -71,31 +70,56 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
+  pdftitle={Tess Test Text},
+  pdfauthor={Tessa Mediano},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\author{}
-\date{\vspace{-2.5em}}
+\title{Tess Test Text}
+\author{Tessa Mediano}
+\date{}
 
 \begin{document}
+\maketitle
 
 {
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{1}
 \tableofcontents
 }
-\subsection{\# Preface}\label{preface}
-
-title: ``Tess Test Text''
-author: ``Tessa Mediano''
-site: bookdown::bookdown\_site
-documentclass: book
-classoption: openany
----
-
-\section{Introduction}\label{introduction}
+\chapter{Introduction}\label{introduction}
 
 This book was written as part of a Library Juice Academy course on Git and Github. I may one day write the next great American novel on here, but that would require the novel to become relevant again to the cultural landscape in the United States.
 
 Enjoy whatever random information I choose to highlight in this book.
+
+\chapter{Spring Poem}\label{spring-poem}
+
+A timely poem on Spring by Komitas\\
+\textgreater{} Sweet spring,\\
+\textgreater{} Flower and bud,\\
+\textgreater{} The merry stream,\\
+\textgreater{} Sparkling babble,\\
+\textgreater{} Green bloom,\\
+\textgreater{} Delightful dew,\\
+\textgreater{} Refreshing brook\\
+\textgreater{} Where did you leave all these\ldots{}
+
+When your heart's in bloom, pollen gets in your eyes.
+
+\chapter{Another Spring Verse}\label{another-spring-verse}
+
+O viridissima virga,\\
+ave, que in ventoso flabro sciscitationis\\
+sanctorum prodisti.
+
+Cum venit tempus quod tu floruisti in ramis tuis,\\
+ave, ave fuit tibi, quia calor solis in te sudavit\\
+sicut odor balsami.
+
+Nam in te floruit\\
+pulcher flos qui odorem dedit\\
+omnibus aromatibus que arida erant.
+
+Et illa apparuerunt omnia in viriditate plena.
 
 \end{document}
