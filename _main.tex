@@ -3,7 +3,7 @@
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
-  openany]{book}
+]{article}
 \usepackage{amsmath,amssymb}
 \usepackage{iftex}
 \ifPDFTeX
@@ -36,6 +36,7 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -70,22 +71,25 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={Tess Test Text},
-  pdfauthor={Tessa Mediano},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{Tess Test Text}
-\author{Tessa Mediano}
-\date{}
+\author{}
+\date{\vspace{-2.5em}}
 
 \begin{document}
-\maketitle
 
 {
-\setcounter{tocdepth}{1}
+\setcounter{tocdepth}{2}
 \tableofcontents
 }
+\subsection{\# Preface}\label{preface}
 
+title: ``Tess Test Text''
+author: ``Tessa Mediano''
+site: bookdown::bookdown\_site
+documentclass: book
+classoption: openany
+---
 
 \end{document}
