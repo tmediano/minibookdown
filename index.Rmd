@@ -1,6 +1,6 @@
 ---
-title: "A Mini Bookdown"
-author: "Your Name"
+title: "Tess Test Text"
+author: "Tessa Mediano"
 site: bookdown::bookdown_site
 documentclass: book
 classoption: openany
