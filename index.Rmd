@@ -1,4 +1,3 @@
-# Title Page {-}
 ---
 title: "Tess Test Text"
 author: "Tessa Mediano"
